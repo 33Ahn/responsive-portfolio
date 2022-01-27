@@ -2,6 +2,10 @@
   background-color: #f5c7b7;
 }
 
+a {
+  font-size: 20px;
+}
+
 /*  Typography */
 
 h1 {
@@ -25,7 +29,7 @@ h3 {
   margin: 8px 0;
 }
 p {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 500;
   color: rgb(80, 76, 76);
   margin: 8px 0;
@@ -59,3 +63,32 @@ p {
   border: 2px solid white;
   border-radius: 4px;
 }
+
+/*------ About -----*/
+#about {
+  padding: 40px;
+}
+
+.about__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.about__text {
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+  padding: 60px;
+}
+
+.about__avatar {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 2px solid none;
+  margin: 0 0 20px 0;
+}
+
+/* ---- Footer ---- */
