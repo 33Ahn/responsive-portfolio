@@ -1,3 +1,61 @@
 .navbar {
   background-color: #f5c7b7;
 }
+
+/*  Typography */
+
+h1 {
+  font-size: 45px;
+  font-weight: 700;
+  color: rgb(80, 76, 76);
+  margin: 16px 0;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 600;
+  color: rgb(80, 76, 76);
+  margin: 8px 0;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(80, 76, 76);
+  margin: 8px 0;
+}
+p {
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(80, 76, 76);
+  margin: 8px 0;
+}
+
+/* Home */
+#home {
+  padding: 40px;
+  text-align: center;
+  background-color: aliceblue;
+}
+
+.home__avatar {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 2px solid none;
+  margin: 20px 0;
+}
+
+.home__title,
+.home__description {
+  color: rgb(80, 76, 76);
+}
+
+.home__contact {
+  color: rgb(80, 76, 76);
+  font-size: 18px;
+  margin: 24px;
+  padding: 8px 12px;
+  border: 2px solid white;
+  border-radius: 4px;
+}
