@@ -15,7 +15,7 @@ a {
   color: rgb(73, 70, 70);
 }
 
-/*  Typography */
+/*----  Typography ----*/
 
 h1 {
   font-size: 45px;
@@ -40,7 +40,7 @@ p {
   text-align: center;
 }
 
-/* Home */
+/* ----Home ----*/
 .home__container {
   background-color: aliceblue;
 }
@@ -113,5 +113,3 @@ p {
   height: 350px;
   margin: 20px;
 }
-
-/
