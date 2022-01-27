@@ -1,43 +1,42 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(73, 70, 70);
+}
+
 .navbar {
   background-color: #f5c7b7;
+  position: sticky;
+  top: 0px;
+  left: 0px;
 }
 
 a {
   font-size: 20px;
+  color: rgb(73, 70, 70);
 }
 
 /*  Typography */
 
 h1 {
   font-size: 45px;
-  font-weight: 700;
-  color: rgb(80, 76, 76);
-  margin: 16px 0;
+  font-weight: 600;
 }
 
 h2 {
   font-size: 30px;
-  font-weight: 600;
-  color: rgb(80, 76, 76);
+  font-weight: 500;
   margin: 8px 0;
 }
 
-h3 {
-  font-size: 20px;
-  font-weight: 500;
-  color: rgb(80, 76, 76);
-  margin: 8px 0;
-}
 p {
   font-size: 20px;
   font-weight: 500;
-  color: rgb(80, 76, 76);
   margin: 8px 0;
 }
 
 /* ---- Section common ---- */
 .section {
-  padding: 40px;
+  margin: 20px;
   text-align: center;
 }
 
@@ -47,24 +46,22 @@ p {
 }
 
 .home__avatar {
+  margin: 30px;
+}
+
+.home__avatar,
+.about__avatar {
   width: 250px;
   height: 250px;
   border-radius: 50%;
-  border: 2px solid none;
-  margin: 20px 0;
-}
-
-.home__title,
-.home__description {
-  color: rgb(80, 76, 76);
 }
 
 .home__contact {
-  color: rgb(80, 76, 76);
   font-size: 18px;
   margin: 24px;
   padding: 8px 12px;
-  border: 2px solid white;
+  background: #f5c7b7;
+  border: none;
   border-radius: 4px;
 }
 
@@ -78,6 +75,10 @@ p {
   text-align: center;
 }
 
+.about__title {
+  padding-top: 30px;
+}
+
 .about__text {
   justify-content: space-between;
   max-width: 1200px;
@@ -85,17 +86,16 @@ p {
   padding: 60px;
 }
 
-.about__avatar {
-  width: 250px;
-  height: 250px;
-  border-radius: 50%;
-  border: 2px solid none;
-  margin: 0 0 20px 0;
+.btn {
+  background-color: rgb(107, 102, 102);
+  font-size: 20px;
+  padding: 8px 14px;
 }
 
 /* ---- Footer ---- */
 #footer {
   padding: 5px 40px;
+  margin-top: 20px;
   background-color: #f5c7b7;
   display: flex;
   justify-content: space-between;
@@ -104,4 +104,14 @@ p {
 
 .contact__links i {
   font-size: 25px;
+  color: rgb(80, 76, 76);
 }
+
+/* ---- Portfolio html file ---- */
+.portfolio__img {
+  width: 350px;
+  height: 350px;
+  margin: 20px;
+}
+
+/
